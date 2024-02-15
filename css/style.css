@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(211, 209, 227);
+}
+
+.menu-area {
+    position: fixed;
+    background-color: aliceblue;
+    top:0;
+    left:0;
+    width: 100%;
+    height:20px;
+    transition:2s;
+}
+
+.active{
+    height: 100vh;
+}
+
+.student{
+    border: 1px solid black;
+    height: 20vh;
+    padding: 6px;
+}
+
+.student:hover{
+    background-color: rgb(165, 187, 222);
+    color: white;
+    border: 5px solid rgb(0, 0, 0);
+
+}
+
+#everthing{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.newBox{
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    height: 20vh;
+    width: 100px;
+    background-color: rgb(123, 132, 188);
+
+}
